@@ -37,7 +37,7 @@
       maximised = False
       fullscreen = False
       size = 651, 659
-      title = vi /root/.config/i3
+      title = vi ~/.config/i3
       last_active_window = True
     [[[child1]]]
       type = Notebook
@@ -68,7 +68,7 @@
       maximised = False
       fullscreen = False
       size = 651, 659
-      title = fish /root/Documents/gui/wtf_0.25.0_linux_386
+      title = fish ~/GUI/wtf_0.25.0_linux_386
       last_active_term = 16940ad3-c318-44ad-9c60-30832f8c6702
       last_active_window = False
     [[[terminal5]]]
@@ -77,7 +77,7 @@
       order = 0
       profile = default
       command = "wtfutil"
-      directory = "/root/Documents/gui/wtf_0.25.0_linux_386"
+      directory = "~/GUI/wtf_0.25.0_linux_386"
       uuid = 16940ad3-c318-44ad-9c60-30832f8c6702
   [[ws3]]
     [[[child0]]]
@@ -88,7 +88,7 @@
       maximised = False
       fullscreen = False
       size = 651, 659
-      title = vi /root/.config/i3
+      title = vi ~/.config/i3
       last_active_window = True
     [[[child1]]]
       type = Notebook
@@ -117,7 +117,7 @@
       maximised = False
       fullscreen = False
       size = 651, 659
-      title = fish /root/Documents/gui/wtf_0.25.0_linux_386
+      title = fish ~/GUI/wtf_0.25.0_linux_386
       last_active_term = 16940ad3-c318-44ad-9c60-30832f8c6702
       last_active_window = False
     [[[terminal5]]]
