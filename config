@@ -1,14 +1,23 @@
 [global_config]
+  geometry_hinting = True
   title_transmit_bg_color = "#edd400"
+  inactive_color_offset = 0.8055555555555556
   enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes, Colorize, TerminalExporter
+  suppress_multiple_term_dialog = True
 [keybindings]
+  next_tab = <Alt>Page_Down
+  prev_tab = <Alt>Page_Up
 [profiles]
   [[default]]
-    background_color = "#1d2837"
-    background_darkness = 0.65
+    background_color = "#182430"
+    background_darkness = 0.7
     background_type = transparent
-    cursor_color = "#bbbbbb"
+    cursor_shape = ibeam
+    cursor_color = "#fff200"
+    cursor_color_fg = False
     foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
     palette = "#000000:#f9555f:#21b089:#fef02a:#589df6:#944d95:#1f9ee7:#bbbbbb:#555555:#fa8c8f:#35bb9a:#ffff55:#589df6:#e75699:#3979bc:#ffffff"
 [layouts]
   [[default]]
@@ -18,4 +27,106 @@
     [[[child1]]]
       type = Terminal
       parent = window0
+      profile = default
+  [[ws]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 20:20
+      maximised = False
+      fullscreen = False
+      size = 651, 659
+      title = vi /root/.config/i3
+      last_active_window = True
+    [[[child1]]]
+      type = Notebook
+      parent = child0
+      order = 0
+      labels = None, None
+      last_active_term = 80cc1663-fa56-4ae7-a6df-cbc1dd540275, b91c095e-0aaa-4f6d-a779-6e5aa05dc47b
+      active_page = 1
+    [[[terminal2]]]
+      type = Terminal
+      parent = child1
+      order = 0
+      profile = default
+      uuid = 80cc1663-fa56-4ae7-a6df-cbc1dd540275
+      command = ""
+      directory = ""
+    [[[terminal3]]]
+      type = Terminal
+      parent = child1
+      order = 1
+      profile = default
+      uuid = b91c095e-0aaa-4f6d-a779-6e5aa05dc47b
+    [[[child4]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 685:20
+      maximised = False
+      fullscreen = False
+      size = 651, 659
+      title = fish /root/Documents/gui/wtf_0.25.0_linux_386
+      last_active_term = 16940ad3-c318-44ad-9c60-30832f8c6702
+      last_active_window = False
+    [[[terminal5]]]
+      type = Terminal
+      parent = child4
+      order = 0
+      profile = default
+      command = "wtfutil"
+      directory = "/root/Documents/gui/wtf_0.25.0_linux_386"
+      uuid = 16940ad3-c318-44ad-9c60-30832f8c6702
+  [[ws3]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 20:20
+      maximised = False
+      fullscreen = False
+      size = 651, 659
+      title = vi /root/.config/i3
+      last_active_window = True
+    [[[child1]]]
+      type = Notebook
+      parent = child0
+      order = 0
+      labels = None, None
+      last_active_term = 80cc1663-fa56-4ae7-a6df-cbc1dd540275, b91c095e-0aaa-4f6d-a779-6e5aa05dc47b
+      active_page = 1
+    [[[terminal2]]]
+      type = Terminal
+      parent = child1
+      order = 0
+      profile = default
+      uuid = 80cc1663-fa56-4ae7-a6df-cbc1dd540275
+    [[[terminal3]]]
+      type = Terminal
+      parent = child1
+      order = 1
+      profile = default
+      uuid = b91c095e-0aaa-4f6d-a779-6e5aa05dc47b
+    [[[child4]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 685:20
+      maximised = False
+      fullscreen = False
+      size = 651, 659
+      title = fish /root/Documents/gui/wtf_0.25.0_linux_386
+      last_active_term = 16940ad3-c318-44ad-9c60-30832f8c6702
+      last_active_window = False
+    [[[terminal5]]]
+      type = Terminal
+      parent = child4
+      order = 0
+      profile = default
+      command = "mc --colors base_color=lightgray,blue:normal=blue,default:selected=white,brightblue:marked=yellow,default:mark"
+      directory = "/opt"
+      uuid = 16940ad3-c318-44ad-9c60-30832f8c6702
+
 [plugins]
